@@ -1,3 +1,4 @@
+import tailwindcss from '@tailwindcss/vite';
 import { defineConfig } from 'vitest/config';
 
 export default defineConfig({
@@ -13,4 +14,5 @@ export default defineConfig({
     restoreMocks: true,
     passWithNoTests: true,
   },
+  plugins: [tailwindcss()],
 });
