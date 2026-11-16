@@ -1,1 +1,1 @@
-{"root":["./src/counter.ts","./src/main.ts"],"version":"6.0.3"}
+{"root":["./src/index.ts","./src/app/ui/home.ts","./src/helpers/fabric-elemnt.ts"],"version":"6.0.3"}
